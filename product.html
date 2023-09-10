@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen System Market Place</title>
+    <link rel="stylesheet" href="styles/globals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="layout">
+        <header>
+            <div class="navbar-container">
+                <p class="logo">
+                    <a href="/">GEN Headphones</a>
+                </p>
+
+                <!-- <button type="button" class="cart-icon" onClick={()=> setShowCart(true)}> -->
+                <button type="button" class="cart-icon" onclick="showCart()">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-item-qty">0</span>
+                </button>
+
+                <!-- {showCart &&
+                    <cart />} -->
+                    <div class="cart-wrapper">
+                        <div class="cart-container">
+                          
+                        </div>
+                    </div>
+            </div>
+        </header>
+        <main class="main-container">
+            <div>
+                <div class="product-detail-container">
+                    <!-- added from js -->
+                </div>
+
+                <div class="maylike-products-wrapper">
+                    <h2>You may also like</h2>
+                    <div class="marquee">
+                        <div class="maylike-products-container track">
+                            <!-- added from js -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <p>2023 GEN Headphones All rights reserverd</p>
+                <p class="icons">
+                    <a href="https://www.linkedin.com/in/solieman-snossy/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Snossy123"><i class="fa-brands fa-github"></i></a>
+                </p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+            integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
